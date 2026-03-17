@@ -38,6 +38,42 @@ activities = {
       "schedule": "Segundas, quartas e sextas, 14h - 15h",
       "max_participants": 30,
       "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+   },
+   "Voleibol Competitivo": {
+      "description": "Treinos e jogos de voleibol para todos os níveis",
+      "schedule": "Segundas e quartas, 16h - 17h30",
+      "max_participants": 16,
+      "participants": []
+   },
+   "Atletismo de Pista": {
+      "description": "Corrida, salto e arremesso com foco em performance atlética",
+      "schedule": "Terças e quintas, 16h - 17h",
+      "max_participants": 18,
+      "participants": []
+   },
+   "Coral Escolar": {
+      "description": "Prática vocal coletiva e apresentações musicais",
+      "schedule": "Terças, 17h - 18h30",
+      "max_participants": 20,
+      "participants": []
+   },
+   "Teatro e Expressão": {
+      "description": "Oficina de atuação, improviso e criação de peças",
+      "schedule": "Quintas, 17h - 18h30",
+      "max_participants": 18,
+      "participants": []
+   },
+   "Clube de Robótica": {
+      "description": "Projetos de robótica e programação de sistemas autônomos",
+      "schedule": "Segundas e sextas, 15h - 16h30",
+      "max_participants": 15,
+      "participants": []
+   },
+   "Clube de Debate": {
+      "description": "Desenvolva pensamento crítico e oratória em debates temáticos",
+      "schedule": "Quartas, 17h - 18h",
+      "max_participants": 14,
+      "participants": []
    }
 }
 
