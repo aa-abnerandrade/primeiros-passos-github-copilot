@@ -59,8 +59,16 @@ def signup_for_activity(activity_name: str, email: str):
     if activity_name not in activities:
         raise HTTPException(status_code=404, detail="Atividade não encontrada")
 
-    # Get the specificy activity
+    # Get the specific activity
     activity = activities[activity_name]
+
+    # Validate duplicate registration
+    if email in activity["participants"]:
+        raise HTTPException(status_code=400, detail="Estudante já inscrito")
+
+    # Validate quota
+    if len(activity["participants"]) >= activity["max_participants"]:
+        raise HTTPException(status_code=400, detail="Vagas esgotadas")
 
     # Add student
     activity["participants"].append(email)
